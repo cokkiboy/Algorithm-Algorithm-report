@@ -174,7 +174,7 @@ int main() {
     srand(static_cast<unsigned>(time(0)));
 
     // 데이터 크기에 따른 성능 측정
-    for (size_t n : {1000, 5000, 10000}) {
+    for (size_t n : {1000, 1500, 2000, 5000, 5500, 10000, 15000, 100, 10}) {
         analyze_threshold_performance(n);
     }
 
